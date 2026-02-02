@@ -6,11 +6,68 @@
     <title>Manual de Usuário - Tik Tok</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./logotiktok.png">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                        fontFamily: {
+                            poppins: ['Poppins', 'sans-serif'],
+                            inter: ['Inter', 'sans-serif']
+                        }
+                    }
+                }
+            }
+        </script>
 </head>
-<body>
-    <header></header>
+<body >
+    <header class="bg-[#000000] flex items-center justify-center w-full">
+        <div class="flex flex-row justify-between w-full lg:w-2/3 p-4 items-center">
+            <img src="./logotiktok.png" alt="Logo do Tik Tok" class="w-[40px] h-[40px] lg:w-[70px] lg:h-[70px]">
+            <h1 class="text-white font-bold font-poppins text-md lg:text-2xl">Manual do Usuário <span class="text-[#2DCCD3]">Tik</span><span class="text-[#F1204A]">Tok</span></h1>
+            <img src="./imagem-perfil.png" alt="Imagem de Perfil" class="w-[32px] h-[32px]">
+        </div>
+    </header>
 
-    <main></main>
+    <main class="mt-4 w-full flex flex-col items-center justify-center">
+
+        <section class="">
+            <hr class="my-8 border-t-1 border-[#2DCCD3] rounded-full" />
+            <h1 class="my-4 font-bold text-3xl font-poppins">INTRODUÇÃO E APRESENTAÇÃO</h1>
+            <hr class="my-8 border-t-1 border-[#F1204A] rounded-full" />
+        </section>
+
+        <section class="lg:w-2/3 px-4 py-2">
+            <div class="bg-[#BAF6F0] rounded p-4">
+                <p class="text-md"><span class="font-bold">Sistema Documentado:</span> TikTok</p>
+                <p class="text-md"><span class="font-bold">Empresa Documentadora:</span> Foba Docs</p>
+                <p class="text-md"><span class="font-bold">Integrantes da Equipe:</span> Jonathan, Igor, Gustavo Kotryk e Matheus</p>
+                <p class="text-md"><span class="font-bold">Data e Nome da Disciplina:</span> 02/02/2026 - Documentação de Sistemas</p>
+            </div>
+        </section>
+
+        <section class="lg:w-2/3 px-4 py-2">
+            <div class="bg-[#FC9FB2] rounded p-4">
+                <p class="text-md"><span class="font-bold">Apresentação do Sistema:</span> </p>
+                <p class="text-md"><span class="font-bold">Público Alvo:</span> Geração Z (16-24 anos)</p>
+                <p class="text-md"><span class="font-bold">Objetivo do Manual:</span> Ensinar ao usuários como utilizar o TikTok, tirando todas suas dúvidas de como funcionam seu sistema.</p>
+            </div>
+        </section>
+
+        <section class="lg:w-2/3 px-4 py-2">
+            <div class="bg-[#BAF6F0] rounded p-4">
+                <p class="text-md"><span class="font-bold">Sistemas Operacionais Compatíveis:</span> Todos (Windows, MacOS, Linux, Android, IOS, etc)</p>
+                <p class="text-md"><span class="font-bold">Requisitos de Hardware e Software:</span> Todos Dispositivos</p>
+                <p class="text-md"><span class="font-bold">Cadastro e Acesso:</span> </p>
+            </div>
+        </section>
+
+        <section>
+            <hr class="my-8 border-t-1  border-[#2DCCD3] rounded-full" />
+            <h1 class="my-4 font-bold text-3xl font-poppins">INTERFACE E NAVEGAÇÃO</h1>
+            <hr class="my-8 border-t-1 border-[#F1204A] rounded-full" />
+        </section>
+    </main>
 
     <footer></footer>
 </body>
