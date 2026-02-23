@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +24,14 @@
     <header class="bg-[#000000] flex items-center justify-center w-full">
         <div class="flex flex-row justify-between w-full lg:w-2/3 p-4 items-center">
             <img src="./images and videos/logotiktok.png" alt="Logo do Tik Tok" class="w-[38px] h-[40px] lg:w-[65px] lg:h-[70px]">
-            <h1 class="text-white font-bold font-poppins text-md lg:text-2xl">Manual do Usuário <span class="text-[#2DCCD3]">Tik</span><span class="text-[#F1204A]">Tok</span></h1>
+            <nav>
+                <ul class="flex flex-row gap-8 text-white">
+                    <li><a href="#Introducao" class="font-medium font-poppins">Introdução</a></li>
+                    <li><a href="#Interface" class="font-medium font-poppins">Interface</a></li>
+                    <li><a href="#errosEDicas" class="font-medium font-poppins">Erros e atalhos</a></li>
+                    <li><a href="#Conclusao" class="font-medium font-poppins">Conclusão</a></li>
+                </ul>
+            </nav>
             <img src="./images and videos/imagem-perfil.png" alt="Imagem de Perfil" class="w-[32px] h-[32px]">
         </div>
     </header>
@@ -33,7 +40,7 @@
 
         <section class="">
             <hr class="my-8 border-t-1 border-[#2DCCD3] rounded-full" />
-            <h1 class="my-4 font-bold text-xl text-center md:text-3xl font-poppins">INTRODUÇÃO E APRESENTAÇÃO</h1>
+            <h1 class="my-4 font-bold text-xl text-center md:text-3xl font-poppins" id="Introducao">INTRODUÇÃO E APRESENTAÇÃO</h1>
             <hr class="my-8 border-t-1 border-[#F1204A] rounded-full" />
         </section>
 
@@ -81,15 +88,21 @@
 
         <section>
             <hr class="my-8 border-t-1  border-[#2DCCD3] rounded-full" />
-            <h1 class="my-4 font-bold text-xl text-center md:text-3xl font-poppins">INTERFACE E NAVEGAÇÃO</h1>
+            <h1 class="my-4 font-bold text-xl text-center md:text-3xl font-poppins" id="Interface">INTERFACE E NAVEGAÇÃO</h1>
             <hr class="my-8 border-t-1 border-[#F1204A] rounded-full" />
         </section>
 
         <section class="w-full lg:w-2/3 px-4 py-2">
             <div class="bg-[#ffc7d2] rounded p-4">
-                <p class="font-medium text-xl mb-2">Visão geral da interface: </p>
-                    <video src="./images and videos/Parte inicial - 1.mp4" class="rounded lg:w-2/3" controls></video>
-                    <video src="./images and videos/Parte inicial - 2.mp4" class="rounded lg:w-2/3" controls></video>
+                <p class="font-medium text-xl mb-4">Visão geral da interface: </p>
+                <div class="flex flex-col gap-4">
+                    <video autoplay muted loop playsinline src="./images and videos/funcoesPrimarias.mp4" class="rounded lg:w-2/3" controls></video>
+                    <video autoplay muted loop playsinline src="./images and videos/explorar (1).mp4" class="rounded lg:w-2/3" controls></video>
+                    <video autoplay muted loop playsinline src="./images and videos/videosFiltrados.mp4" class="rounded lg:w-2/3" controls></video>
+                    <video autoplay muted loop playsinline src="./images and videos/notificacoes.mp4" class="rounded lg:w-2/3" controls></video>
+                    <video autoplay muted loop playsinline src="./images and videos/criarConteudo.mp4" class="rounded lg:w-2/3" controls></video>
+                    <video autoplay muted loop playsinline src="./images and videos/perfil.mp4" class="rounded lg:w-2/3" controls></video>
+                </div>
             </div>
         </section>
 
@@ -120,13 +133,13 @@
                     </ul>
 
                     <p class="font-medium text-xl mb-2">Demonstração ilustrada: </p>
-                    <video src="./images and videos/config.webm" class="rounded lg:w-2/3" controls></video>
+                    <video autoplay muted loop playsinline src="./images and videos/config.webm" class="rounded lg:w-2/3" controls></video>
             </div>
         </section>
 
          <section>
             <hr class="my-8 border-t-1  border-[#2DCCD3] rounded-full" />
-            <h1 class="my-4 font-bold text-xl text-center md:text-3xl font-poppins">ERROS COMUNS E DICAS DE ATALHOS</h1>
+            <h1 class="my-4 font-bold text-xl text-center md:text-3xl font-poppins" id="errosEDicas">ERROS COMUNS E DICAS DE ATALHOS</h1>
             <hr class="my-8 border-t-1 border-[#F1204A] rounded-full" />
         </section>
 
@@ -150,13 +163,13 @@
                         <li><span class="font-medium">- Contatar o suporte do TikTok:</span> Se o problema persistir, o usuário pode relatar o erro acessando Configurações e privacidade no mobile e no “três pontinhos” e suporte no desktop.</li>
                     </ul>
                     <p class="font-medium text-xl mb-2">Demonstração ilustrada: </p>
-                    <video src="./images and videos/erros.webm" class="rounded lg:w-2/3" controls></video>
+                    <video autoplay muted loop playsinline src="./images and videos/erros.webm" class="rounded lg:w-2/3" controls></video>
             </div>
         </section>
 
         <section>
             <hr class="my-8 border-t-1  border-[#2DCCD3] rounded-full" />
-            <h1 class="my-4 font-bold text-xl text-center md:text-3xl font-poppins">CONCLUSÃO E REFERÊNCIAS</h1>
+            <h1 class="my-4 font-bold text-xl text-center md:text-3xl font-poppins" id="Conclusao">CONCLUSÃO E REFERÊNCIAS</h1>
             <hr class="my-8 border-t-1 border-[#F1204A] rounded-full" />
         </section>
 
